@@ -1,0 +1,85 @@
+.task {
+    width: 45rem;
+    height: 10px;
+    top: 291px;
+    margin: 0 auto;
+    top: 291px;
+    margin-top: 64px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.infoCreated {
+    color: var(--blue);
+}
+
+.infoDone {
+    color: var(--puerple);
+}
+
+.area {
+    box-sizing: border-box;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    gap: 0 !important;
+}
+
+.newTask {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+svg {
+    color: white;
+}
+
+.svgClipboard {
+    color: rgb(182, 181, 181);
+}
+
+input[type='text'] {
+    width: 39rem;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    padding: 16px;
+    margin-top: -25px;
+    color: var(--white);
+}
+
+.newTask a {
+   width: 5.6rem;
+   height: 52px; 
+
+   background: var(--blueDark);
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 16px;
+   text-decoration: none;
+   color: var(--white);
+   gap: 8px;
+   margin-top: -25px;  
+}

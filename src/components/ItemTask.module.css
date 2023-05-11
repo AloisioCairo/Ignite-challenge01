@@ -1,0 +1,54 @@
+.task {
+    box-sizing: border-box;
+    height: 72px;
+    width: 100%;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+}
+
+input[type='checkbox'] {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid var(--blue);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type='checkbox']:checked {
+    background-color: var(--puerpleDark);
+    border-color: var(--puerpleDark);
+}
+
+p {
+    background: var(--gray-500);
+    color: var(--gray-100);
+    font-size: 14px;    
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.task button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    line-height: 0;
+    order: 2;
+    flex-grow: 0;
+}
